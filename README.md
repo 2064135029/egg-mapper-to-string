@@ -1,4 +1,4 @@
-# egg-mapperToString
+# egg-mapper-to-string
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-mapperToString --save
+ npm i egg-mapper-to-string --save
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ $ npm i egg-mapperToString --save
 // {app_root}/config/plugin.js
 exports.mapperToString = {
   enable: true,
-  package: 'egg-mapperToString',
+  package: "egg-mapper-to-string",
 };
 ```
 
@@ -44,8 +44,7 @@ exports.mapperToString = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.mapperToString = {
-};
+exports.mapperToString = {};
 ```
 
 see [config/config.default.js](config/config.default.js) for more detail.

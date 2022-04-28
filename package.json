@@ -52,5 +52,9 @@
   },
   "homepage": "https://github.com/eggjs/egg-mapperToString#readme",
   "author": "吴建何",
-  "license": "MIT"
+  "license": "MIT",
+  "main": ".autod.conf.js",
+  "directories": {
+    "test": "test"
+  }
 }
