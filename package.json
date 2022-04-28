@@ -1,9 +1,9 @@
 {
   "name": "egg-mapper-to-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mapper转sql ",
   "eggPlugin": {
-    "name": "mapperToString"
+    "name": "egg-mapper-to-string"
   },
   "keywords": [
     "egg",
@@ -37,6 +37,7 @@
     "autod": "autod"
   },
   "files": [
+    ".autod.conf.js",
     "app",
     "config"
   ],
